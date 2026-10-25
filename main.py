@@ -24,10 +24,10 @@ def analyseWords(PWords):
     print("- {:.2f} Average-word-length".format(Avg))
 
 def main():
-    print("Program-starting.")
+    print("Program starting.")
     collected_words = collectWords()
     analyseWords(collected_words)
-    print("Program-ending.")
+    print("Program ending.")
 
 if __name__ == "__main__":
     main()
