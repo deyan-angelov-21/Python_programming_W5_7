@@ -19,8 +19,8 @@ def analyseWords(PWords):
     char_count = sum(len(word) for word in word_list)
     Avg = char_count / word_count if word_count > 0 else 0
     
-    print(f"- {word_count} words")
-    print(f"- {char_count} characters")
+    print(f"- {word_count} Words")
+    print(f"- {char_count} Characters")
     print("- {:.2f} Average-word-length".format(Avg))
 
 def main():
