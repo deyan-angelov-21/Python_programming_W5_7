@@ -25,9 +25,9 @@ def analyseWords(Words):
         Avg = Characters / Amount
     else:
         Avg = 0
-    print("-{} Words".format(Amount))
-    print("-{} Characters".format(Characters))
-    print("-{:.2f} Average-word-length".format(Avg))
+    print("~ {} Words".format(Amount))
+    print("~ {} Characters".format(Characters))
+    print("~ {:.2f} Average-word-length".format(Avg))
     return None
 
 def main():
